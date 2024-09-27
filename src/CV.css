@@ -1,0 +1,8 @@
+.cv {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 900px;
+  align-items: center;
+}
