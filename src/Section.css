@@ -1,0 +1,28 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  width: 400px;
+  padding: 1rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  max-height: max-content;
+}
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.arrow-button {
+  border: none;
+  background-color: transparent;
+  font-weight: 800;
+  font-size: large;
+}
+.arrow-button:hover {
+  cursor: pointer;
+}
